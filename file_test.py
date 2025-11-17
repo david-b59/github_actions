@@ -1,37 +1,9 @@
-def test_calc_addition():
+def addition(a, b):
 
-    # Fonction test du résultat de 2+4
-
-    output = 2 + 4
-
-    assert output == 6
+    return a + b
 
 
 
-def test_calc_subtraction():
+def test_addition():
 
-    # Fonction test du résultat de 2-4
-
-    output = 2 - 4
-
-    assert output == -2
-
-
-
-def test_calc_multiply():
-
-    # Fonction test du résultat de 2*4
-
-    output = 2 * 4
-
-    assert output == 8
-
-
-
-def test_coucou():
-
-    # Fonction test si le résultat renvoie 'hello'
-
-    output = "hello"
-
-    assert output == "hello"
+    assert addition(1, 2) == 3
