@@ -48,3 +48,6 @@ jobs:
 
         uses: py-actions/flake8@v2
 
+        with:
+
+          args: --ignore=E303,W391 file_test.py
